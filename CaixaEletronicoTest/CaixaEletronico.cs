@@ -26,7 +26,7 @@ namespace CaixaEletronicoTest
             saque.AddRange(SacarValor(out restante, restante, 20));
             saque.AddRange(SacarValor(out restante, restante, 10));
 
-             return saque.ToArray();
+            return saque.ToArray();
         }
 
         private static IEnumerable<int> SacarValor(out int restante, int valor, int nota)
@@ -34,9 +34,8 @@ namespace CaixaEletronicoTest
             restante = valor;
             var notas = new List<int>();
             if (restante == 0) return notas;
-
             if (VerificarDivisivel(valor, nota))
-            {  
+            {
                 var qtdNotas = new int[valor / nota];
                 for (int i = 0; i < qtdNotas.Length; i++)
                 {
@@ -44,13 +43,12 @@ namespace CaixaEletronicoTest
                     notas.Add(nota);
                 }
             }
-
             return notas;
         }
 
         internal static bool VerificarDivisivel(int valor, int dividendo)
         {
-            return valor % dividendo == 0;
+            return valor / dividendo > 0;
         }
     }
 }

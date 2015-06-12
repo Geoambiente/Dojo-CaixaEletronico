@@ -35,7 +35,7 @@ namespace CaixaEletronicoTest
         public void DeveRetornarUmaNotaDeDezQuandoSolicitadoOSaqueDeDez()
         {
             int valorSolicitado = 10;
-            var arrayEsperado = new int[]{10};
+            var arrayEsperado = new int[] { 10 };
 
             Assert.IsTrue(CaixaEletronico.EfetuarSaque(valorSolicitado).Except(arrayEsperado).Count() == 0);
         }
@@ -60,7 +60,7 @@ namespace CaixaEletronicoTest
         [TestMethod]
         public void DeveVerificarSeEhDivisivelPor100()
         {
-            var valor =  300 ;
+            var valor = 300;
 
             Assert.IsTrue(CaixaEletronico.VerificarDivisivel(valor, 100));
         }
@@ -79,6 +79,19 @@ namespace CaixaEletronicoTest
             var valor = 50;
 
             Assert.IsTrue(CaixaEletronico.VerificarDivisivel(valor, 50));
+        }
+
+        [TestMethod]
+        public void DeveRetornarArrayCom2NotasDe100e1NotaDe50e1NotaDe20e1nNotaDe50()
+        {
+            var valorSaque = 100 + 100 + 50 + 20 + 10;
+
+            var saque = CaixaEletronico.EfetuarSaque(valorSaque).ToList();
+
+            Assert.IsTrue(saque.Count(x => x == 100) == 2);
+            Assert.IsTrue(saque.Count(x => x == 50) == 1);
+            Assert.IsTrue(saque.Count(x => x == 20) == 1);
+            Assert.IsTrue(saque.Count(x => x == 10) == 1);
         }
     }
 }

@@ -3,3 +3,8 @@ D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest
 D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.csprojResolveAssemblyReference.cache
 D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.dll
 D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.pdb
+D:\Projetos\Dojos\Dojo-CaixaEletronico\CaixaEletronicoTest\bin\Debug\CaixaEletronicoTest.dll
+D:\Projetos\Dojos\Dojo-CaixaEletronico\CaixaEletronicoTest\bin\Debug\CaixaEletronicoTest.pdb
+D:\Projetos\Dojos\Dojo-CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.csprojResolveAssemblyReference.cache
+D:\Projetos\Dojos\Dojo-CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.dll
+D:\Projetos\Dojos\Dojo-CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.pdb
