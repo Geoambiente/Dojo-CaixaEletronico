@@ -1,0 +1,5 @@
+D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest\bin\Debug\CaixaEletronicoTest.dll
+D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest\bin\Debug\CaixaEletronicoTest.pdb
+D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.csprojResolveAssemblyReference.cache
+D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.dll
+D:\Projetos-Testes-NET\Dojos\caixaeletronico\CaixaEletronico\CaixaEletronicoTest\obj\Debug\CaixaEletronicoTest.pdb
