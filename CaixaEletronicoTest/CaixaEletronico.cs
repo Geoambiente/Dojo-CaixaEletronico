@@ -46,9 +46,9 @@ namespace CaixaEletronicoTest
             return notas;
         }
 
-        internal static bool VerificarDivisivel(int valor, int dividendo)
+        internal static bool VerificarDivisivel(int dividendo, int divisor)
         {
-            return valor / dividendo > 0;
+            return dividendo / divisor > 0;
         }
     }
 }
